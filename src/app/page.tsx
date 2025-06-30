@@ -46,9 +46,7 @@ const images = [
 ];
   
 export default function Home() {
-  const handleAnimationComplete = () => {
-    console.log('All letters have animated!');
-  };
+ 
   
   console.log("Made with love for Ananya, by her colleagues especially Sourav!")
   return (
