@@ -8,11 +8,18 @@ import ShinyText from '../../bits/ShinyText/ShinyText';
 // React Bits does not take responsibility for the fonts used
 
 
+
 const images = [
-  { id: 1, img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format" },
-  { id: 2, img: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format" },
-  { id: 3, img: "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format" },
-  { id: 4, img: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format" }
+  { id: 1, img: "https://drive.google.com/file/d/1nFVOIqS5jbCaMnTcppUy3GAihfvprIEF/view?usp=drivesdk" },
+  { id: 2, img: "https://drive.google.com/file/d/1nLqDtGoZk_7W1eoXx5g61j9jts-Euftg/view?usp=drivesdk" },
+  { id: 3, img: "https://drive.google.com/file/d/1nQ4tH8cUfhbsNmuzZiEn8T-R5RdarB4Y/view?usp=drivesdk" },
+  { id: 4, img: "https://drive.google.com/file/d/1nLqDtGoZk_7W1eoXx5g61j9jts-Euftg/view?usp=drivesdk" },
+  { id: 5, img: "https://drive.google.com/file/d/1nKmkHS1i0pNN6KYQ14vglEwsmLV50tXJ/view?usp=drivesdk" },
+  { id: 6, img: "https://drive.google.com/file/d/1nKkXV2nF_j1TWIMGln_rINKs0IIQjvDJ/view?usp=drivesdk" },
+  { id: 7, img: "https://drive.google.com/file/d/1nITELWNWc9rGUXGkeGiVZRqnmKjYjQ9g/view?usp=drivesdk" },
+  { id: 8, img: "https://drive.google.com/file/d/1nHL5aG9aHduWIZqYcyfi6SAN2Mp1cmOO/view?usp=drivesdk" },{
+    id : 9, img : "https://drive.google.com/file/d/1nNtRDbOQc9SoHwTHvDJYioIvxBPhgK71/view?usp=drivesdk"
+  }
 ];
   
 export default function Home() {
