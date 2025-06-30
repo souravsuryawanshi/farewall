@@ -1,6 +1,12 @@
 
 import Particles from "../../bits/Particles/Particles";
 import Stack from '../../bits/Stack/Stack'
+import TextPressure from '../../bitd/TextPressure/TextPressure';
+import ShinyText from '../../bits/ShinyText/ShinyText';
+// Note:
+// Make sure the font you're using supports all the variable properties. 
+// React Bits does not take responsibility for the fonts used
+
 
 const images = [
   { id: 1, img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format" },
@@ -11,10 +17,39 @@ const images = [
   
 export default function Home() {
   return (
+    <>
+    <div style={{position: 'relative', height: '100px'}}>
+  <TextPressure
+    text="Bon Voyage!"
+    flex={true}
+    alpha={false}
+    stroke={false}
+    width={true}
+    weight={true}
+    italic={true}
+    textColor="#fff"
+    strokeColor="#ff0000"
+    minFontSize={24}
+  />
+</div>
+ <ShinyText text="We will miss you, Ananya!" disabled={false} speed={2} className='custom-class' />
+    <div style={{width : '100%', display : "flex" , justifyContent : "flex-start"
+    }}>
+    <Stack
+    randomRotation={true}
+    sensitivity={180}
+    sendToBackOnClick={false}
+    cardDimensions={{ width: 300, height: 300 }}
+    cardsData={images}
+  >
+  </Stack>
+    </div>
+    
    
     <div style={{ width: '100%', height: '600px', position: 'relative' }}>
+  
       <Particles
-        particleColors={['#ffffff', '#ffffff']}
+        particleColors={['#fff', '#fff']}
         particleCount={200}
         particleSpread={10}
         speed={0.1}
@@ -26,12 +61,7 @@ export default function Home() {
        
 
       </Particles>
-      <Stack
-  randomRotation={true}
-  sensitivity={180}
-  sendToBackOnClick={false}
-  cardDimensions={{ width: 200, height: 200 }}
-  cardsData={images}
-/>
-    </div>  );
+      
+    </div>  
+    </>);
 }
