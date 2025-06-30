@@ -56,7 +56,7 @@ export default function Home() {
     <div style={{width: '100%', height: '100%'}}>
        <div>
   
-    <div style={{position: 'relative', height: '100px'}}>
+    <div style={{position: 'relative', height: '250px'}}>
   <TextPressure
     text="Bon Voyage!"
     flex={true}
