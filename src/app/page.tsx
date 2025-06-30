@@ -15,13 +15,7 @@ import FallingText from '../../bits/FallingText/FallingText';
 // Note:
 // Make sure the font you're using supports all the variable properties. 
 // React Bits does not take responsibility for the fonts used
-[00:50, 01/07/2025] Sourav:
-[00:50, 01/07/2025] Sourav: 
-[00:50, 01/07/2025] Sourav:
-[00:50, 01/07/2025] Sourav: 
-[00:50, 01/07/2025] Sourav: Dekho ye link open ho rahi hai?
-[00:51, 01/07/2025] Rajni Airtel: Han ho rhi h
-[00:52, 01/07/2025] Sourav: 
+
 
 //thumbnail?id=FILE_ID
 const images = [
