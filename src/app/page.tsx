@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Particles from "../../bits/Particles/Particles";
 import Stack from '../../bits/Stack/Stack'
 
